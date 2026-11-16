@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "seedara": {
+      "type": "http",
+      "url": "https://seedara.ai/api/mcp"
+    }
+  }
+}
