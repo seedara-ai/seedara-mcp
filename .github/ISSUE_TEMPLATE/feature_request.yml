@@ -1,0 +1,21 @@
+name: Feature request
+description: Suggest a tool, a model, a client or an improvement
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like?
+      description: For example a new client config, a model you want over MCP, or a change to a tool.
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it would help
+      description: What you are trying to do in your agent.
+  - type: input
+    id: client
+    attributes:
+      label: Client you use
+      placeholder: e.g. Claude Code, Cursor, ChatGPT

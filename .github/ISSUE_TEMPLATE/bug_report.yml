@@ -1,0 +1,56 @@
+name: Bug report
+description: Something doesn't work when you connect or use the Seedara MCP server
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the report. Please don't paste passwords, tokens or other private data.
+        Security problems go to support@seedara.ai, not here (see SECURITY.md).
+  - type: dropdown
+    id: client
+    attributes:
+      label: Client
+      options:
+        - Claude (claude.ai or the Claude app)
+        - ChatGPT
+        - Claude Code
+        - Cursor
+        - VS Code
+        - Windsurf / Devin
+        - Codex
+        - Antigravity
+        - Gemini CLI
+        - Other (mcp-remote or another client)
+    validations:
+      required: true
+  - type: input
+    id: client_version
+    attributes:
+      label: Client version
+      placeholder: e.g. Cursor 3.2
+  - type: dropdown
+    id: stage
+    attributes:
+      label: Where it fails
+      options:
+        - Adding the server
+        - Sign-in window / Allow
+        - Tools don't appear
+        - A tool call returns an error
+        - Result (image, video, audio) is wrong or missing
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: what_happened
+    attributes:
+      label: What happened
+      description: What you did, what you expected and what you got. Error text or a screenshot helps.
+    validations:
+      required: true
+  - type: input
+    id: generation_id
+    attributes:
+      label: Generation id (if any)
+      description: The id the agent got from generate or get_generation.

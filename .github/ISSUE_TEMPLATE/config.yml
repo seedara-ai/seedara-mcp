@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Step-by-step setup for every client
+    url: https://seedara.ai/mcp
+    about: Claude, ChatGPT, Claude Code, Cursor, VS Code, Windsurf / Devin, Codex, Antigravity / Gemini CLI and others.
+  - name: Questions and ideas
+    url: https://github.com/seedara-ai/seedara-mcp/discussions
+    about: Ask how to do something or share what you made.
+  - name: Account, billing or security
+    url: mailto:support@seedara.ai
+    about: E-mail support@seedara.ai. Please don't post private data in issues.
