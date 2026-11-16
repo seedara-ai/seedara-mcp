@@ -2,8 +2,12 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "ai.seedara/mcp",
   "title": "Seedara",
-  "description": "AI video, image and audio generation with 150+ AI models from any MCP agent",
-  "version": "1.0.0",
+  "description": "AI video, image and audio generation with 140+ AI models from any MCP agent",
+  "repository": {
+    "url": "https://github.com/seedara-ai/seedara-mcp",
+    "source": "github"
+  },
+  "version": "1.0.1",
   "websiteUrl": "https://seedara.ai/mcp",
   "remotes": [
     { "type": "streamable-http", "url": "https://seedara.ai/api/mcp" }
